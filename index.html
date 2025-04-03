@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Синий Трактор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="start-screen">
+            <button id="start-button">Включить Синий Трактор</button>
+        </div>
+        
+        <div id="animation-screen" class="hidden">
+            <div id="tractor-container">
+                <img id="moving-tractor" src="images/tractor1.jpg" alt="Синий Трактор">
+            </div>
+            <div id="tractor-gallery" class="hidden"></div>
+        </div>
+        
+        <div id="jumpscare-screen" class="hidden">
+            <img id="jumpscare-image" src="images/jumpscare.jpg" alt="Синий Трактор">
+        </div>
+    </div>
+
+    <audio id="background-music" src="sounds/blue-tractor-song.mp3" preload="auto"></audio>
+    <audio id="jumpscare-sound" src="sounds/jumpscare-sound.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
